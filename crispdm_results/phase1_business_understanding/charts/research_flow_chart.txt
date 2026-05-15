@@ -1,0 +1,17 @@
+RESEARCH FLOW
+=============
+Idea & Gap Analysis
+      ↓
+Dataset Creation / Acquisition (salary_in_usd dengan fitur HR)
+      ↓
+EDA & Quality Check (Phase 2)
+      ↓
+Preprocessing & Discretization (Phase 3)  ←─┐
+      ↓                                       │
+5-Fold CV Training — 3 Models (Phase 4)       │ loop-back jika
+      ↓                                       │ kualitas data
+Comprehensive Evaluation (Phase 5)   ─────────┘ kurang baik
+      ↓
+Paper-Ready Output (Phase 6)
+      ↓
+Final Conclusion (Phase 7)

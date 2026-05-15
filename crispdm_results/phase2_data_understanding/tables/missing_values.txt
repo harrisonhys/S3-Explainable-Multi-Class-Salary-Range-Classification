@@ -1,0 +1,14 @@
+MISSING VALUES ANALYSIS
+----------------------------------------
+                    Missing    %
+work_year                 0  0.0
+experience_level          0  0.0
+employment_type           0  0.0
+job_title                 0  0.0
+salary_in_usd             0  0.0
+employee_residence        0  0.0
+remote_ratio              0  0.0
+company_location          0  0.0
+company_size              0  0.0
+
+Total missing: 0

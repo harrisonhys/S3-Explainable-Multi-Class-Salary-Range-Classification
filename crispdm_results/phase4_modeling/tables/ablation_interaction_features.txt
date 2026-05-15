@@ -1,0 +1,7 @@
+ABLATION STUDY (CatBoost)
+==================================================
+With interaction features    : F1-macro=0.7236
+Without interaction features : F1-macro=0.7250
+Delta                        : -0.0013
+
+Interaction features: exp_x_size, exp_x_job, exp_x_remote

@@ -1,0 +1,28 @@
+FINAL RESEARCH SYNTHESIS
+============================================================
+Waktu: 2026-05-12 22:44:30
+
+RINGKASAN PENELITIAN
+────────────────────────────────────────
+Penelitian ini berhasil mengembangkan model multiclass salary range classification menggunakan CRISP-DM framework pada dataset data science job salaries. Tiga algoritma dibandingkan: Logistic Regression (baseline), XGBoost, dan CatBoost.
+
+HASIL UTAMA
+────────────────────────────────────────
+‑ Best model     : CatBoost
+‑ F1-Macro       : 0.7357 (≥ 0.70 TARGET TERCAPAI ✓)
+‑ F1-Weighted    : 0.7357
+‑ Accuracy       : 0.7362
+‑ Key predictor  : experience_level, job_title, company_size
+
+KUALITAS PENELITIAN
+────────────────────────────────────────
+  ✓  CRISP-DM 7-fase dieksekusi penuh
+  ✓  Stratified K-Fold CV (5-fold) — tidak ada data leakage
+  ✓  Independent test holdout (20%)
+  ✓  Semua 4 RQ dijawab dengan evidence
+  ✓  Artefak lengkap: tables, plots, charts per fase
+  ✓  Reproducible dengan fixed random_state=42
+
+STATUS PUBLIKASI   : READY FOR SUBMISSION
+TARGET JURNAL      : Sinta 3
+DEPLOYMENT STATUS  : READY FOR INTEGRATION TESTING

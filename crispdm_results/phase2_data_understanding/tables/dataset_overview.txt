@@ -1,0 +1,15 @@
+Shape             : 3000 rows × 9 columns
+Numeric columns   : ['work_year', 'salary_in_usd', 'remote_ratio']
+Categorical columns: ['experience_level', 'employment_type', 'job_title', 'employee_residence', 'company_location', 'company_size']
+
+STATISTICAL SUMMARY (numeric)
+--------------------------------------------------
+       work_year  salary_in_usd  remote_ratio
+count    3000.00        3000.00       3000.00
+mean     2022.02      107331.50         59.73
+std         0.94       65259.93         44.21
+min      2020.00       12672.00          0.00
+25%      2021.00       55385.00          0.00
+50%      2022.00       93574.00        100.00
+75%      2023.00      143879.75        100.00
+max      2023.00      480510.00        100.00

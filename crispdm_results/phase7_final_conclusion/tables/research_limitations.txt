@@ -1,0 +1,19 @@
+KETERBATASAN PENELITIAN
+============================================================
+
+DATA
+────────────────────────────────────────
+‑ Dataset sintetis (domain-specific data science jobs) — generalisasi terbatas
+‑ Tidak mempertimbangkan faktor ekonomi makro (inflasi, currency fluctuation)
+‑ Fitur seperti education, years_of_experience tidak tersedia
+
+MODEL
+────────────────────────────────────────
+‑ Hyperparameter default — tuning penuh bisa meningkatkan performa
+‑ Ordinal class ordering (salary class boundary = quartile) bersifat arbitrary
+
+GENERALISASI
+────────────────────────────────────────
+‑ Model dilatih pada data science domain saja
+‑ Geo-economic bias: dominasi US companies dalam dataset
+‑ Perlu validasi lapangan oleh HR practitioner

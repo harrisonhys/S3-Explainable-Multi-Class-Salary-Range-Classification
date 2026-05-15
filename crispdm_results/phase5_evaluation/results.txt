@@ -1,0 +1,23 @@
+PHASE 5: EVALUATION
+======================================================================
+Waktu: 2026-05-12 22:44:30
+
+RINGKASAN HASIL
+----------------------------------------------------------------------
+Model terbaik: CatBoost dengan F1-Macro = 0.7357 pada test set. Target TERCAPAI ✓.
+
+TEMUAN UTAMA
+----------------------------------------------------------------------
+‑ LogisticRegression: Acc=0.7229, F1-Macro=0.7220, ROC-AUC=0.9131
+‑ XGBoost: Acc=0.7112, F1-Macro=0.7097, ROC-AUC=0.9116
+‑ CatBoost: Acc=0.7362, F1-Macro=0.7357, ROC-AUC=0.9224
+‑ Per-class F1 (CatBoost): Low=0.8389, Medium-Low=0.6954, Medium-High=0.6280, High=0.7803
+‑ SHAP berhasil: summary, dependence (experience_level), dan local explanation untuk model CatBoost (class=High).
+
+KEPUTUSAN LANJUT
+----------------------------------------------------------------------
+Model CatBoost dipilih sebagai final model. Lanjut Phase 6.
+
+CATATAN RISIKO
+----------------------------------------------------------------------
+Overfitting check (CV gap): LogisticRegression=0.0068, XGBoost=0.2670, CatBoost=0.1600

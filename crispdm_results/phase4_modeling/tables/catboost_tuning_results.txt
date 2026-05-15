@@ -1,0 +1,10 @@
+CATBOOST TUNING (CV F1-Macro)
+=======================================================
+cfg={'iterations': 400, 'depth': 6, 'learning_rate': 0.05, 'l2_leaf_reg': 3} -> F1-macro=0.7232
+cfg={'iterations': 500, 'depth': 6, 'learning_rate': 0.05, 'l2_leaf_reg': 3} -> F1-macro=0.7236
+cfg={'iterations': 600, 'depth': 7, 'learning_rate': 0.04, 'l2_leaf_reg': 3} -> F1-macro=0.7164
+cfg={'iterations': 700, 'depth': 7, 'learning_rate': 0.035, 'l2_leaf_reg': 4} -> F1-macro=0.7205
+cfg={'iterations': 800, 'depth': 8, 'learning_rate': 0.03, 'l2_leaf_reg': 5} -> F1-macro=0.7211
+cfg={'iterations': 550, 'depth': 8, 'learning_rate': 0.04, 'l2_leaf_reg': 3} -> F1-macro=0.7141
+
+BEST CATBOOST CONFIG: {'iterations': 500, 'depth': 6, 'learning_rate': 0.05, 'l2_leaf_reg': 3} (F1-macro=0.7236)

@@ -1,0 +1,34 @@
+TUJUAN PENELITIAN
+=================
+Mengembangkan model machine learning multiclass untuk klasifikasi salary range
+di domain pekerjaan data science menggunakan framework CRISP-DM.
+
+RUMUSAN MASALAH (RQ)
+====================
+RQ1  Dapatkah model ML mengklasifikasikan salary range dengan F1-macro >= 0.70?
+RQ2  Algoritma mana (LogReg, XGBoost, CatBoost) yang paling superior?
+RQ3  Fitur apa yang paling dominan menentukan salary range?
+RQ4  Bagaimana interpretabilitas model mendukung HR analytics?
+
+HIPOTESIS
+=========
+H1   CatBoost dan XGBoost mengungguli LogReg karena handle non-linearitas.
+H2   experience_level dan job_title adalah predictor utama salary class.
+H3   Company size dan remote ratio berkontribusi signifikan secara sekunder.
+
+KANDIDAT MODEL
+==============
+- Baseline  : Logistic Regression (multi-class, max_iter=1000)
+- Boosting  : XGBoost (n_estimators=200, depth=6)
+- Categorical: CatBoost (iterations=300, depth=6)
+
+METRIK KEBERHASILAN
+===================
+Primary   : F1-Score Macro   >= 0.70
+Secondary : F1-Score Weighted >= 0.75
+Tertiary  : Accuracy          >= 0.72
+
+TARGET DOMAIN
+=============
+HR Analytics — model digunakan sebagai decision support system untuk
+penentuan salary band pada proses rekrutmen dan review kompensasi.

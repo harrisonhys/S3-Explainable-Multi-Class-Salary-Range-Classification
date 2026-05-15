@@ -1,0 +1,9 @@
+MODEL PERFORMANCE ON TEST SET
+Model                    Accuracy   F1-Macro  F1-Weighted   ROC-AUC  Precision     Recall
+----------------------------------------------------------------------------------------
+LogisticRegression         0.7229     0.7220       0.7222    0.9131     0.7216     0.7227
+XGBoost                    0.7112     0.7097       0.7098    0.9116     0.7089     0.7111
+CatBoost                   0.7362     0.7357       0.7357    0.9224     0.7355     0.7362
+----------------------------------------------------------------------------------------
+BEST MODEL: CatBoost  (F1-Macro = 0.7357)
+TARGET MET: YES ✓

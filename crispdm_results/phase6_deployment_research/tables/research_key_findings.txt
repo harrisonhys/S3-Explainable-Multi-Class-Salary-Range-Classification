@@ -1,0 +1,26 @@
+KEY RESEARCH FINDINGS FOR PUBLICATION
+============================================================
+
+1. BEST MODEL
+   Algorithm  : CatBoost
+   F1-Macro   : 0.7357 (≥ 0.70 target MET ✓)
+   F1-Weighted: 0.7357
+   Accuracy   : 0.7362
+
+2. PER-CLASS F1 (CatBoost)
+   Low: 0.8389
+   Medium-Low: 0.6954
+   Medium-High: 0.6280
+   High: 0.7803
+
+3. NOTABLE INSIGHTS
+   ‑ Gradient boosting methods (XGBoost/CatBoost) outperform baseline
+   ‑ experience_level is the strongest salary range predictor
+   ‑ job_title and company_size are secondary significant predictors
+   ‑ SHAP explainability tersedia: global, dependence, dan local explanation
+   ‑ Model suitable for HR analytics decision support
+
+4. METHODOLOGY HIGHLIGHT
+   ‑ CRISP-DM 7-phase framework ensures reproducibility
+   ‑ Stratified K-Fold (5) avoids evaluation bias
+   ‑ Independent test set (20% holdout) for unbiased final evaluation

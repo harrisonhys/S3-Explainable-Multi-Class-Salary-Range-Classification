@@ -1,0 +1,21 @@
+PHASE 4: MODELING
+======================================================================
+Waktu: 2026-05-12 22:44:29
+
+RINGKASAN HASIL
+----------------------------------------------------------------------
+3 model dilatih dengan 5-Fold Stratified CV. CatBoost dituning dengan focused grid pada depth, learning_rate, iterations, dan l2_leaf_reg. Feature importance diekstrak dari XGBoost dan CatBoost.
+
+TEMUAN UTAMA
+----------------------------------------------------------------------
+‑ LogisticRegression: F1-macro CV = 0.7188 ± 0.0169
+‑ XGBoost: F1-macro CV = 0.7009 ± 0.0133
+‑ CatBoost: F1-macro CV = 0.7236 ± 0.0216
+
+KEPUTUSAN LANJUT
+----------------------------------------------------------------------
+Lanjut Phase 5 (Evaluation) untuk evaluasi final pada test set holdout.
+
+CATATAN RISIKO
+----------------------------------------------------------------------
+Overfitting check: LogisticRegression=0.0068, XGBoost=0.2670, CatBoost=0.1600

@@ -1,0 +1,15 @@
+TARGET: salary_in_usd
+----------------------------------------
+Min    : $    12,672
+Q1(25%): $    55,385
+Median : $    93,574
+Q3(75%): $   143,880
+Max    : $   480,510
+Mean   : $   107,331
+Std    : $    65,260
+
+KETERANGAN KELAS (quartile-based):
+  Class 0 Low         : salary ≤ Q1  = $55,385
+  Class 1 Medium-Low  : Q1 < salary ≤ Q2 = $93,574
+  Class 2 Medium-High : Q2 < salary ≤ Q3 = $143,880
+  Class 3 High        : salary > Q3 = $143,880

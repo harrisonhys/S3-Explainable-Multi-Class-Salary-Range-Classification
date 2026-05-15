@@ -1,0 +1,22 @@
+KONTRIBUSI PENELITIAN
+============================================================
+
+KONTRIBUSI TEORITIS
+────────────────────────────────────────
+‑ Membuktikan feasibility 4-class salary range classification
+‑ Studi komparatif LogReg vs XGBoost vs CatBoost untuk masalah HR
+‑ Validasi ordinal + frequency encoding strategy untuk HR dataset
+‑ Evidence CRISP-DM sebagai framework efektif penelitian ML untuk jurnal
+
+KONTRIBUSI PRAKTIS
+────────────────────────────────────────
+‑ Model siap diintegrasikan ke HR Management System
+‑ Feature importance membantu HR policy: fokus pada experience & role
+‑ Salary band predictor berguna untuk onboarding & career progression
+‑ Framework penelitian dapat direplikasi untuk domain lain
+
+KONTRIBUSI METODOLOGIS
+────────────────────────────────────────
+‑ Penerapan CRISP-DM terstruktur dengan artefak per fase
+‑ Stratified K-Fold dengan independent holdout → evaluasi robust
+‑ Ordinal encoding untuk fitur HR yang memiliki urutan natural

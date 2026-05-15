@@ -1,0 +1,22 @@
+PHASE 1: BUSINESS_UNDERSTANDING
+======================================================================
+Waktu: 2026-05-12 22:44:13
+
+RINGKASAN HASIL
+----------------------------------------------------------------------
+Formulasi masalah final: multiclass salary range classification (4 kelas) menggunakan algoritma LogReg, XGBoost, CatBoost pada dataset data-science salaries.
+
+TEMUAN UTAMA
+----------------------------------------------------------------------
+‑ 4 research questions terformulasi
+‑ Success metric: F1-macro ≥ 0.70
+‑ Pendekatan: CRISP-DM 7-phase
+‑ Dataset: Data Science Job Salaries (2000 samples)
+
+KEPUTUSAN LANJUT
+----------------------------------------------------------------------
+Lanjut ke Phase 2 (Data Understanding) untuk EDA dan validasi dataset.
+
+CATATAN RISIKO
+----------------------------------------------------------------------
+Tidak ada risiko pada fase ini. Formulasi sudah stabil.

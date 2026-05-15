@@ -1,0 +1,34 @@
+RESEARCH QUESTIONS — ANSWERS
+============================================================
+
+RQ1: Dapatkah model ML mengklasifikasi salary range dengan F1-macro ≥ 0.70?
+────────────────────────────────────────────────────────────
+JAWABAN: YA ✓. Model CatBoost mencapai F1-macro = 0.7357 pada test set.
+Hasil: Target TERCAPAI.
+
+RQ2: Algoritma mana yang paling superior?
+────────────────────────────────────────────────────────────
+JAWABAN: CatBoost adalah algoritma terbaik.
+  LogisticRegression: F1-macro = 0.7220
+  XGBoost: F1-macro = 0.7097
+  CatBoost: F1-macro = 0.7357
+Alasan: gradient boosting handle non-linearity & categorical patterns lebih baik dari logistic regression.
+
+RQ3: Fitur apa yang paling dominan?
+────────────────────────────────────────────────────────────
+JAWABAN (berdasarkan feature importance dari CatBoost):
+  1. experience_level — paling kuat (ordinal 0–3)
+  2. job_title — frequency-encoded, variasi gaji tinggi antar role
+  3. company_size — multiplier L=+16% vs S=-16%
+  4. remote_ratio & employment_type — kontributor sekunder
+
+RQ4: Bagaimana interpretabilitas model mendukung HR analytics?
+────────────────────────────────────────────────────────────
+JAWABAN: Model CatBoost menyediakan:
+  ‑ Feature importance plot → identifikasi key salary drivers
+  ‑ SHAP summary plot → global explainability antar fitur
+  ‑ SHAP dependence plot → hubungan fitur penting terhadap output model
+  ‑ SHAP local waterfall → penjelasan prediksi pada level individu
+  ‑ Per-class precision/recall → transparansi prediksi per tier gaji
+  ‑ Confusion matrix → pemahaman kesalahan klasifikasi
+  ‑ Dapat diintegrasikan ke HR system sebagai salary band predictor

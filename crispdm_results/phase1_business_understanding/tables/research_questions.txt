@@ -1,0 +1,4 @@
+RQ1  Feasibility multiclass classification: target F1-macro >= 0.70
+RQ2  Best algorithm identification via 5-fold cross-validation
+RQ3  Feature importance analysis (XGBoost + CatBoost feature scores)
+RQ4  Model interpretability: feature importance plot + per-class metrics

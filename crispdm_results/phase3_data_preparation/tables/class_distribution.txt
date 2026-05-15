@@ -1,0 +1,14 @@
+TARGET DISCRETIZATION (4-Class, Quartile-Based)
+--------------------------------------------------
+  Q1  = $55,353  →  class boundary Low | Medium-Low
+  Q2  = $93,276  →  class boundary Medium-Low | Medium-High
+  Q3  = $143,598  →  class boundary Medium-High | High
+
+CLASS DISTRIBUTION:
+  Class 0 Low           :   749 ( 25.0%)
+  Class 1 Medium-Low    :   748 ( 25.0%)
+  Class 2 Medium-High   :   748 ( 25.0%)
+  Class 3 High          :   748 ( 25.0%)
+
+Total samples : 2993
+Imbalance ratio: 1.00x (OK)

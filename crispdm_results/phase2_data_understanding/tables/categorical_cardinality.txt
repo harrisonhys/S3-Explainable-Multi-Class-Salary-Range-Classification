@@ -1,0 +1,57 @@
+CATEGORICAL CARDINALITY
+----------------------------------------
+
+experience_level (4 unique)
+experience_level
+SE    1026
+MI     898
+EN     616
+EX     460
+
+employment_type (4 unique)
+employment_type
+FT    2135
+CT     354
+FR     295
+PT     216
+
+job_title (10 unique)
+job_title
+Data Scientist         439
+ML Engineer            413
+Data Engineer          373
+Data Analyst           368
+Analytics Engineer     323
+Research Scientist     312
+AI Specialist          283
+Analytics Manager      237
+Lead Data Scientist    153
+Principal Data Eng.     99
+
+employee_residence (8 unique)
+employee_residence
+US    1250
+GB     417
+CA     329
+DE     234
+FR     216
+IN     200
+AU     192
+ES     162
+
+company_location (8 unique)
+company_location
+US    1246
+GB     404
+CA     304
+DE     239
+FR     213
+ES     209
+IN     193
+AU     192
+
+company_size (3 unique)
+company_size
+M    1466
+L     852
+S     682

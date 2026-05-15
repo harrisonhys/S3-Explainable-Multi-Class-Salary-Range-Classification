@@ -1,0 +1,20 @@
+SHAP GLOBAL IMPORTANCE (mean |SHAP|)
+--------------------------------------------------
+           feature  mean_abs_shap
+  experience_level       0.963659
+         job_title       0.796738
+        exp_x_size       0.671221
+      exp_x_remote       0.407414
+   employment_type       0.305988
+         exp_x_job       0.236358
+         work_year       0.230037
+      company_size       0.125669
+employee_residence       0.109309
+  company_location       0.070725
+      remote_ratio       0.066597
+
+Explained model: CatBoost
+Explained class: High
+Top dependence feature: experience_level
+Local sample index: 235
+Local base value: -0.675516

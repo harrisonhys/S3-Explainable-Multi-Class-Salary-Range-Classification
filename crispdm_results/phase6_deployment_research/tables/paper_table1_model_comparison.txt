@@ -1,0 +1,11 @@
+
+TABLE 1 — Comparative Model Performance (Test Set)
+================================================================================
+Algorithm                Accuracy  F1-Macro  F1-Weighted  Precision    Recall 
+--------------------------------------------------------------------------------
+LogisticRegression         0.7229     0.7220       0.7222     0.7216    0.7227
+XGBoost                    0.7112     0.7097       0.7098     0.7089    0.7111
+CatBoost                   0.7362     0.7357       0.7357     0.7355    0.7362 ← best
+--------------------------------------------------------------------------------
+Note: 5-Fold Stratified CV used during training; test set is an independent 20% holdout.
+Best model: CatBoost  (F1-Macro = 0.7357)

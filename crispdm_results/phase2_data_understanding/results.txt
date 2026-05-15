@@ -1,0 +1,22 @@
+PHASE 2: DATA_UNDERSTANDING
+======================================================================
+Waktu: 2026-05-12 22:44:13
+
+RINGKASAN HASIL
+----------------------------------------------------------------------
+Dataset berhasil dimuat: 3000 baris × 9 kolom. Tidak ada missing values. Salary berkisar $12,672–$480,510.
+
+TEMUAN UTAMA
+----------------------------------------------------------------------
+‑ experience_level paling berkorelasi dengan salary
+‑ Distribusi salary right-skewed (mayoritas EN & MI)
+‑ company_size Large bayar 30% lebih tinggi vs Small
+‑ Q1=$55,385, Q2=$93,574, Q3=$143,880
+
+KEPUTUSAN LANJUT
+----------------------------------------------------------------------
+Lanjut Phase 3. Encoding dilakukan: ordinal untuk experience_level, company_size; frequency encoding untuk job_title & residence.
+
+CATATAN RISIKO
+----------------------------------------------------------------------
+Tidak ada missing/duplicate. Outlier minor ada di ujung distribusi — akan dihandle dengan IQR filter di Phase 3.

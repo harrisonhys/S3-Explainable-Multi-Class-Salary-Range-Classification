@@ -1,0 +1,11 @@
+ENCODING STRATEGY
+----------------------------------------
+Ordinal  : experience_level (EN=0→EX=3), company_size (S=0→L=2), employment_type (PT=0→FT=3)
+Frequency: job_title, employee_residence, company_location
+Numeric  : work_year, remote_ratio (no change)
+Interaction: exp_x_size (exp_ord×size_ord), exp_x_job (exp_ord×job_freq), exp_x_remote (exp_ord×remote_ratio)
+
+FEATURES AFTER ENCODING (11):
+['work_year', 'experience_level', 'employment_type', 'job_title', 'employee_residence', 'remote_ratio', 'company_location', 'company_size', 'exp_x_size', 'exp_x_job', 'exp_x_remote']
+
+Scaling: StandardScaler pada semua fitur (required for LogReg)

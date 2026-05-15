@@ -1,0 +1,22 @@
+PHASE 7: FINAL_CONCLUSION
+======================================================================
+Waktu: 2026-05-12 22:44:30
+
+RINGKASAN HASIL
+----------------------------------------------------------------------
+Seluruh 7 fase CRISP-DM selesai. Best model CatBoost F1-Macro=0.7357. Target ≥ 0.70 TERCAPAI.
+
+TEMUAN UTAMA
+----------------------------------------------------------------------
+‑ RQ1: Tercapai ✓
+‑ RQ2: CatBoost terbaik
+‑ RQ3: experience_level, job_title, company_size dominan
+‑ RQ4: Model interpretable via feature importance & per-class metrics
+
+KEPUTUSAN LANJUT
+----------------------------------------------------------------------
+Pipeline selesai. Siap untuk penulisan paper final.
+
+CATATAN RISIKO
+----------------------------------------------------------------------
+Dataset sintetis — validasi lapangan diperlukan sebelum deployment.

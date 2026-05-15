@@ -1,0 +1,22 @@
+PHASE 3: DATA_PREPARATION
+======================================================================
+Waktu: 2026-05-12 22:44:13
+
+RINGKASAN HASIL
+----------------------------------------------------------------------
+Preprocessing selesai. 7 outlier dihapus. Target discretized menjadi 4 kelas. 11 fitur siap untuk modeling.
+
+TEMUAN UTAMA
+----------------------------------------------------------------------
+‑ Q1=$55,353, Q2=$93,276, Q3=$143,598
+‑ Class distribution: {0: np.int64(749), 1: np.int64(748), 2: np.int64(748), 3: np.int64(748)}
+‑ Imbalance ratio: 1.00x (acceptable)
+‑ Features: 11
+
+KEPUTUSAN LANJUT
+----------------------------------------------------------------------
+Lanjut Phase 4 (Modeling). Stratified K-Fold CV digunakan pada X_train+val.
+
+CATATAN RISIKO
+----------------------------------------------------------------------
+Class distribution cukup balanced (quartile-based). Tidak perlu SMOTE untuk dataset ini.

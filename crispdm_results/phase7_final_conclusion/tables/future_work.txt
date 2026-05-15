@@ -1,0 +1,22 @@
+FUTURE WORK & REKOMENDASI
+============================================================
+
+SHORT-TERM (< 6 bulan)
+────────────────────────────────────────
+‑ Fine-tuning hyperparameter dengan Bayesian Optimization (Optuna)
+‑ Perluasan SHAP local explanation ke dashboard interaktif HR
+‑ Validasi dengan real-world HR dataset dari perusahaan Indonesia
+‑ Integration testing ke HR Management System API
+
+MEDIUM-TERM (6–18 bulan)
+────────────────────────────────────────
+‑ Extend ke multi-sector: tidak hanya data science
+‑ Fairness analysis: apakah model bias terhadap residency/gender?
+‑ Ordinal classification (preserve class order) sebagai alternatif
+‑ Ensemble model (stacking LogReg + XGBoost + CatBoost)
+
+LONG-TERM
+────────────────────────────────────────
+‑ Causal inference: apa yang benar-benar MENYEBABKAN salary naik?
+‑ Time-series salary trend analysis
+‑ NLP-based feature extraction dari job descriptions

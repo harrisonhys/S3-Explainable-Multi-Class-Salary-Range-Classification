@@ -1,0 +1,9 @@
+STATISTICAL SIGNIFICANCE TEST (CV F1-Macro)
+=======================================================
+LogReg folds   : [0.7203544227101173, 0.7119348463291264, 0.693519001896523, 0.7455550866146836, 0.7228071208196732]
+CatBoost folds : [0.7320700996064036, 0.7066186747539032, 0.6959298069274855, 0.7582722871499549, 0.7252745389921835]
+
+Paired t-test      : t=1.433988, p=0.224880
+Wilcoxon signed-rank: W=3.000000, p=0.312500
+
+Interpretation threshold: p < 0.05 indicates significant difference.

@@ -1,0 +1,10 @@
+DATA QUALITY ASSESSMENT
+----------------------------------------
+Total rows             : 3000
+Duplicate rows         : 0
+Missing cells          : 0
+Completeness           : 100.00%
+Salary range (USD)     : $12,672 – $480,510
+All salary > 0         : True
+
+VERDICT: DATASET LAYAK → lanjut Phase 3 (Data Preparation)
